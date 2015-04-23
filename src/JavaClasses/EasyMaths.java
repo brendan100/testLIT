@@ -18,6 +18,8 @@ public  class EasyMaths {
      * Checks whether the given integer arrays are equal.
      */
     public boolean equal(int[] array1, int[] array2) {
+        // comment
+        
         System.out.println("running equal method");
         if ((array1 == null) || (array2 == null)) {
             throw new IllegalArgumentException("null argument");
